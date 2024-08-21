@@ -1,7 +1,6 @@
 * {
   margin: 0;
   border: 0;
-  font-family: monospace;
 }
 
 body {
@@ -12,6 +11,7 @@ body {
   align-items: center;
   justify-content: space-between;
   min-height: 100vh;
+  font-family: monospace;
 }
 
 fieldset {
@@ -36,11 +36,11 @@ fieldset {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
   font-family: "Bangers", cursive;
-  font-size: 3rem;
+  font-size: 3.5rem;
   position: relative;
-  top: 250px;
+  top: 20%;
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(4px);
   color: #fff;
