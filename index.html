@@ -14,7 +14,7 @@
     <title>Sign-Up Form</title>
   </head>
   <body>
-    <div class="sidebar">
+    <section class="sidebar">
       <div class="logo">
         <img
           src="./assets/reshot-icon-business-idea-S9NUDEYQ6M.svg"
@@ -37,33 +37,29 @@
           >Unsplash</a
         >
       </footer>
-    </div>
+    </section>
 
-    <div class="container">
-      <p>
+    <section class="container">
+      <h1>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quibusdam
         modi dicta nobis, facere repellendus! Atque, maiores labore. Voluptas
         facere molestiae sunt hic iste!
-      </p>
-      <div>
-        <form action="" method="post">
-          <div class="fields">
-            <p>Fill this!</p>
-            <div class="names">
-              <div id="first">
-                <div>
-                  <label for="first_name">First Name</label>
-                  <input type="text" name="first_name" id="first_name" />
-                </div>
-              </div>
-              <div id="last">
-                <div>
-                  <label for="last_name">Last Name</label>
-                  <input type="text" name="last_name" id="last_name" />
-                </div>
-              </div>
-            </div>
-            <div class="contact">
+      </h1>
+      <form action="" method="post">
+        <div class="fields">
+          <h2>Fill this!</h2>
+          <div class="names">
+            <fieldset>
+              <label for="first_name">First Name</label>
+              <input type="text" name="first_name" id="first_name" />
+            </fieldset>
+            <fieldset>
+              <label for="last_name">Last Name</label>
+              <input type="text" name="last_name" id="last_name" />
+            </fieldset>
+          </div>
+          <div class="contact">
+            <fieldset>
               <label for="email">Email</label>
               <input
                 type="email"
@@ -71,6 +67,8 @@
                 id="email"
                 placeholder="email@email.com"
               />
+            </fieldset>
+            <fieldset>
               <label for="phone_number">Phone Number</label>
               <input
                 type="tel"
@@ -78,23 +76,27 @@
                 id="phone_number"
                 placeholder="+3581234567890"
               />
-            </div>
-            <div class="password">
+            </fieldset>
+          </div>
+          <div class="password">
+            <fieldset>
               <label for="password">Password</label>
               <input type="password" name="password" id="password" />
+            </fieldset>
+            <fieldset>
               <label for="password_confirmation">Confirm Password</label>
               <input
                 type="password"
                 name="password_confirmation"
                 id="password_confirmation"
               />
-            </div>
+            </fieldset>
           </div>
+        </div>
 
-          <button type="submit">Submit</button>
-          <button type="reset">Reset</button>
-        </form>
-      </div>
-    </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+    </section>
   </body>
 </html>
