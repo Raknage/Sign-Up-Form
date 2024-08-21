@@ -27,6 +27,24 @@ fieldset {
   justify-content: space-between;
   align-items: center;
   flex: 1 1 33%;
+  background-image: url(./assets/dima-solomin-3ioe4Dirzcg-unsplash.jpg);
+  background-position: center;
+  background-size: 300%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: "Bangers", cursive;
+  font-size: 3rem;
+  position: relative;
+  top: 250px;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  color: #fff;
+  width: 100%;
 }
 
 .container {
